@@ -1,9 +1,16 @@
 body{
     font-family: 'Roboto Mono', monospace;
-    margin:0px;
+    margin:70px;
 }
-h1{
-    font-size: 50px;
+.border{
+    
+    
+    border-left: 5px solid;
+    padding-left: 20px;
+    border-left-color: green;
+    border-image-slice: 1;
+    border-radius: 3px;
+
 }
 .orange-color{
     color: orange;
@@ -13,33 +20,59 @@ p{
 }
 .flexible{
     display:flex;
+    
+}
+.flexible-img{
+    width: 20%;
 }
 .half-width{
-    width:50%;
-    padding-left: 20px;
+    width:60%;
+    padding-right: 200px;
     padding-top: 20px;
+    
 }
 .half-width img{
-    width:70%;
+    width:60%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(green,rgb(0, 204, 255));
-    padding:10px 25px;
-    border-radius: 5px;
+
+
+.small-icon{
+    width: 20%;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.mission-1{
+    width: 30%;
+    padding:40px 20px 40px 20px;
+    
+    border-radius: 15px;
+    margin-right: 50px;
+    
+    
+    
+    background-color: paleturquoise;
 }
-.full-width{
-    width:50%;
-    padding:100px 50px 10px 30px;
+.mission-2{
+     width: 30%;
+     padding:40px 20px 40px 20px;
+   
+    border-radius: 15px;
+    background-color: silver;
+    margin-right: 50px;
 }
-.full-width-pic img{
-    width:80%;
-    padding-bottom: 20px;
-    padding-top: 30px;
+.mission-3{
+     width: 30%;
+    padding:40px 20px 40px 20px;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 50px;
+  
 }
 .downlode-link{
     text-decoration: none;
@@ -47,35 +80,94 @@ p{
     padding: 5px 30px 5px 30px;
     border-radius: 5px;
 }
-.experiences-item{
-    width:30%;
+
+.first-banner{
+    display: flex;
+       background-image: url(images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 200px;
+   
+    
+}
+.second-banner{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:150px;
+}
+.second-banner- img{
+    width: 40%;
+}
+.first-banner-img{
+    width: 40%;
+}
+.third-banner{
+    display: flex;
+
+}
+.third-banner img{
+    width: 50%;
+    padding-left: 80px;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 150px;
+}
+.last-width{
+    padding-right: 200px;
+    padding-top: 10px;
+}
+.half-width img{
+    width: 70%;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    
+}
+
+
+.full-width{
+    padding-top: 40px;
+
+   
+}
+.full-width-pic img{
+    width:50%;
+    padding-bottom: 20px;
+    padding-top: 50px;
     padding-left: 90px;
-    padding-right: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 5px;
-    
-}
-.experience-area{
-    background-image: url(images/exp-bg.png);
-     background-repeat: no-repeat;
-    background-position:left
     
 
-}
-#slice{
-    border-left: 5px solid;
-    border-image:linear-gradient(blue,cyan) ;
-    border-image-slice: 1;
-}
-#end{
-    border-left: 5px solid;
-    border-image:linear-gradient(blue,cyan) ;
-    border-image-slice: 1;
+
 
 }
-footer h6{
+h3{
     text-align: center;
-    padding-top: 200px;
+    font-size: 35px;
 }
+h4{
+    font-size: 35px;
+}
+
+.end{
+    text-align: center;
+    color: white;
+    
+    font-size: 30px;
+    background-color:black;
+    padding: 20px 0px 20px 0px;
+    margin-left: -70px;
+    margin-right: -70px;
+}
+.red{
+    color: chocolate;
+}
+.arial{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h6{
+    font-size: 10px;
+}
+
+
